@@ -44,6 +44,29 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
+var prefix = "+";
+
+bot1.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+
+
 
 bot1.on('message', message => {
 if (message.content === '!spam') {
@@ -58,7 +81,7 @@ if (message.content === '!spam') {
         }
       }
 });
-bot1.login("NTA4MzQ1NjYyMzU4NjgzNjU5.DsBt6g.kKRqwOcIYuPXn2HNXvo0wjb01hc")
+bot1.login("NTA4MzQ4OTk0ODcxODg1ODM1.DsBuLw.Ue_GvPSuIySeSr98vMSHDLii6ts")
 
 
 
@@ -76,6 +99,7 @@ message.channel.send('#daily')
 }
 });
 
+
  bot2.on('message', message => {
   
   if (message.content === 'do rep') {
@@ -83,6 +107,29 @@ message.channel.send('#daily')
 message.channel.send('#rep <@474573718967025665>')
 }
 });
+
+
+bot2.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+
+
 
 bot2.on('message', message => {
 if (message.content === '!spam') {
@@ -119,6 +166,28 @@ message.channel.send('#daily')
 message.channel.send('#rep <@474573718967025665>')
 }
 });
+
+bot3.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+
+
 
 bot3.on('message', message => {
 if (message.content === '!spam') {
