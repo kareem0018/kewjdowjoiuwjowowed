@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const bot1 = new Discord.Client();
+var prefix = "+";
 
 
 bot1.on('ready', () => {
@@ -44,7 +45,6 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-var prefix = "+";
 
 bot1.on('message', message => {
   if (message.author.bot) return;
