@@ -58,8 +58,7 @@ if (message.content === '!spam') {
         }
       }
 });
-bot1.login("NTA4MzQ4OTk0ODcxODg1ODM1.DsBuLw.Ue_GvPSuIySeSr98vMSHDLii6ts"
-)
+bot1.login("NTA4MzQ1NjYyMzU4NjgzNjU5.DsBt6g.kKRqwOcIYuPXn2HNXvo0wjb01hc")
 
 
 
