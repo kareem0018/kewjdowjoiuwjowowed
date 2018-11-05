@@ -73,7 +73,7 @@ message.channel.send(args.join("  "))
 
 
 
-bot1.login(process.env.BOT_TOKEN1)
+bot1.login('NTA4MzQ3NjEzNDE0Njg2NzIy.DsBt8g.qDS96D9OVDvGGFtDb1QJvF9r9SM')
 
 ///////////////////////////////////////////////////////////////////////////////////
 
