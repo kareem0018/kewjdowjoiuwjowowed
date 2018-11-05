@@ -67,22 +67,13 @@ if (message.content === '!spam') {
 
 bot1.on('message', message => {
   if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
-
   let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
-
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`${prefix}say <words>`);
-
-if (command == "say") {
-
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say1") {
 message.channel.send(args.join("  "))
     message.delete();
   }
-
-
-
 });
 
 
@@ -137,22 +128,13 @@ if (message.content === '!spam') {
 
 bot2.on('message', message => {
   if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
-
   let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
-
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`${prefix}say <words>`);
-
-if (command == "say") {
-
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say2") {
 message.channel.send(args.join("  "))
     message.delete();
   }
-
-
-
 });
 
 
@@ -201,27 +183,16 @@ if (message.content === '!spam') {
       }
 });
 
-
 bot3.on('message', message => {
   if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
-
   let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
-
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`${prefix}say <words>`);
-
-if (command == "say") {
-
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say3") {
 message.channel.send(args.join("  "))
     message.delete();
   }
-
-
-
 });
-
 
 bot3.login("NTA4MzQ4MzI2MDAxOTAxNTc4.DsBt_A.CkQK6mMLOpVcCwaNCo_X74HWsP4")
 
