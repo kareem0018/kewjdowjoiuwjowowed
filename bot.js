@@ -74,8 +74,8 @@ message.channel.send(args.join("  "))
 
 
 
-bot1.login("NTA4MzQ1NjYyMzU4NjgzNjU5.DsBt6g.kKRqwOcIYuPXn2HNXvo0wjb01hc
-")
+bot1.login('NTA4MzQ1NjYyMzU4NjgzNjU5.DsBt6g.kKRqwOcIYuPXn2HNXvo0wjb01hc
+')
 
 
 
