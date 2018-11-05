@@ -130,7 +130,7 @@ message.channel.send(args.join("  "))
 
 
 
-bot1.login(process.env.FB2);
+bot2.login(process.env.FB2);
 
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -182,4 +182,4 @@ message.channel.send(args.join("  "))
 });
 
 
-bot1.login(process.env.FB3);
+bot3.login(process.env.FB3);
