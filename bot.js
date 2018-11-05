@@ -84,7 +84,7 @@ message.channel.send(args.join("  "))
 
 
 });
-)
+
 
 bot1.login("NTA4MzQ1NjYyMzU4NjgzNjU5.DsBt6g.kKRqwOcIYuPXn2HNXvo0wjb01hc")
 
@@ -154,7 +154,7 @@ message.channel.send(args.join("  "))
 
 
 });
-)
+
 
 bot2.login("NTA4MzQ3NjEzNDE0Njg2NzIy.DsBt8g.qDS96D9OVDvGGFtDb1QJvF9r9SM")
 
@@ -221,7 +221,7 @@ message.channel.send(args.join("  "))
 
 
 });
-)
+
 
 bot3.login("NTA4MzQ4MzI2MDAxOTAxNTc4.DsBt_A.CkQK6mMLOpVcCwaNCo_X74HWsP4")
 
