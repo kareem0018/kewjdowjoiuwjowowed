@@ -44,6 +44,13 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
+bot1.on('message', message => {
+  
+  if (message.content === 'trans credits') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
 
 bot1.on('message', message => {
 if (message.content === '!spam') {
@@ -85,6 +92,15 @@ message.channel.send('#rep <@474573718967025665>')
 });
 
 bot2.on('message', message => {
+  
+  if (message.content === 'trans credits') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+
+bot2.on('message', message => {
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -119,6 +135,15 @@ message.channel.send('#daily')
 message.channel.send('#rep <@474573718967025665>')
 }
 });
+
+bot3.on('message', message => {
+  
+  if (message.content === 'trans credits') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
 
 bot3.on('message', message => {
 if (message.content === '!spam') {
