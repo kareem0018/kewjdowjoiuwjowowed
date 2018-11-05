@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const bot1 = new Discord.Client();
-var prefix = ".";
+
+
 bot1.on('ready', () => {
   console.log('')
   console.log('')
@@ -44,7 +45,6 @@ message.channel.send('#rep <@474573718967025665>')
 });
 
 
-
 bot1.on('message', message => {
 if (message.content === '!spam') {
       let count = 0;
@@ -59,6 +59,8 @@ if (message.content === '!spam') {
       }
 });
 
+
+
 bot1.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -72,8 +74,10 @@ message.channel.send(args.join("  "))
 
 
 
-
 bot1.login(process.env.BOT_TOKEN1)
+
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -97,8 +101,6 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-
-
 bot2.on('message', message => {
 if (message.content === '!spam') {
       let count = 0;
@@ -113,6 +115,8 @@ if (message.content === '!spam') {
       }
 });
 
+
+
 bot2.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -125,7 +129,9 @@ message.channel.send(args.join("  "))
 });
 
 
+
 bot2.login(process.env.BOT_TOKEN2)
+
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -147,8 +153,6 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-
-
 bot3.on('message', message => {
 if (message.content === '!spam') {
       let count = 0;
@@ -163,6 +167,9 @@ if (message.content === '!spam') {
       }
 });
 
+
+
+
 bot3.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -174,8 +181,5 @@ message.channel.send(args.join("  "))
   }
 });
 
+
 bot3.login(process.env.BOT_TOKEN3)
-
-
-///////////
-
