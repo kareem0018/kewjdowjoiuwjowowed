@@ -43,13 +43,7 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-bot1.on('message', message => {
-  
-  if (message.content === 'trans1') {
 
-message.channel.send('#credit <@474573718967025665> 5000')
-}
-});
 
 bot1.on('message', message => {
 if (message.content === '!spam') {
@@ -103,13 +97,6 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-bot2.on('message', message => {
-  
-  if (message.content === 'trans2') {
-
-message.channel.send('#credit <@474573718967025665> 5000')
-}
-});
 
 
 bot2.on('message', message => {
@@ -160,13 +147,6 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-bot3.on('message', message => {
-  
-  if (message.content === 'trans3') {
-
-message.channel.send('#credit <@474573718967025665> 5000')
-}
-});
 
 
 bot3.on('message', message => {
