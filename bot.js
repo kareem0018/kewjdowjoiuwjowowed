@@ -43,7 +43,6 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
-bot1.login(process.env.BOT_TOKEN1)
 
 
 bot1.on('message', message => {
@@ -74,6 +73,7 @@ message.channel.send(args.join("  "))
 
 
 
+bot1.login(process.env.BOT_TOKEN1)
 
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -125,7 +125,7 @@ message.channel.send(args.join("  "))
 });
 
 
-bot2.login(process.env.BOT_TOKEN2);
+bot2.login(process.env.BOT_TOKEN2)
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -174,7 +174,7 @@ message.channel.send(args.join("  "))
   }
 });
 
-bot3.login(process.env.BOT_TOKEN3);
+bot3.login(process.env.BOT_TOKEN3)
 
 
 ///////////
