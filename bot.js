@@ -160,3 +160,106 @@ if (message.content === '!spam') {
 
 
 bot3.login("NTA4MzQ4MzI2MDAxOTAxNTc4.DsBt_A.CkQK6mMLOpVcCwaNCo_X74HWsP4")
+
+
+///////////
+var prefix = ".";
+
+bot1.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+  bot1.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+)
+
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+const bot2 = new Discord.Client();
+
+
+  bot2.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+const bot3 = new Discord.Client();
+  
+bot3.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`${prefix}say <words>`);
+
+if (command == "say") {
+
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+
+
+
+});
+)
+
+
