@@ -71,7 +71,6 @@ message.channel.send(args.join("  "))
 });
 
 
-bot1.login(process.env.BOT_TOKEN1);
 
 
 
@@ -178,4 +177,5 @@ bot3.login(process.env.BOT_TOKEN3);
 
 
 ///////////
+bot1.login(process.env.BOT_TOKEN1);
 
