@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const bot1 = new Discord.Client();
 
-
 bot1.on('ready', () => {
   console.log('')
   console.log('')
@@ -46,7 +45,7 @@ message.channel.send('#rep <@474573718967025665>')
 
 bot1.on('message', message => {
   
-  if (message.content === 'trans credits') {
+  if (message.content === 'trans') {
 
 message.channel.send('#credit <@474573718967025665> 5000')
 }
@@ -93,7 +92,7 @@ message.channel.send('#rep <@474573718967025665>')
 
 bot2.on('message', message => {
   
-  if (message.content === 'trans credits') {
+  if (message.content === 'trans') {
 
 message.channel.send('#credit <@474573718967025665> 5000')
 }
@@ -138,7 +137,7 @@ message.channel.send('#rep <@474573718967025665>')
 
 bot3.on('message', message => {
   
-  if (message.content === 'trans credits') {
+  if (message.content === 'trans') {
 
 message.channel.send('#credit <@474573718967025665> 5000')
 }
