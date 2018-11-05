@@ -43,6 +43,7 @@ message.channel.send('#rep <@474573718967025665>')
 }
 });
 
+bot1.login(process.env.BOT_TOKEN1);
 
 
 bot1.on('message', message => {
@@ -177,5 +178,4 @@ bot3.login(process.env.BOT_TOKEN3);
 
 
 ///////////
-bot1.login(process.env.BOT_TOKEN1);
 
