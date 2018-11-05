@@ -71,7 +71,7 @@ message.channel.send(args.join("  "))
 });
 
 
-client.login(process.env.BOT_TOKEN1);
+bot1.login(process.env.BOT_TOKEN1);
 
 
 
@@ -125,7 +125,7 @@ message.channel.send(args.join("  "))
 });
 
 
-client.login(process.env.BOT_TOKEN2);
+bot2.login(process.env.BOT_TOKEN2);
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -174,7 +174,7 @@ message.channel.send(args.join("  "))
   }
 });
 
-client.login(process.env.BOT_TOKEN3);
+bot3.login(process.env.BOT_TOKEN3);
 
 
 ///////////
